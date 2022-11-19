@@ -1,0 +1,22 @@
+   0 mkdir /home/anymals /home/humans
+   1 cd /home/anymals/
+   2 mkdir dogs cats fish
+   3 tree /home/
+   4 touch /home/anymals/cats/garfield.txt /home/anymals/dogs/pluto.txt /home/anymals/fish/nemo.txt
+   5 cd
+   6 touch /tmp/adam.txt 
+   7 cp /tmp/adam.txt /home/humans/
+   8 tree /home/
+   9 touch /tmp/evA.txt
+  10 mv /tmp/evA.txt /opt/eve.txt
+  11 cd /tmp/
+  12 ls
+  13 cd /opt/
+  14 ls
+  15 cd
+  16 mv /opt/eve.txt /home/humans/
+  17 tree /home/
+  18 cd /home/humans/
+  19 ls
+  20 cd
+  21 history > /tmp/history.txt
